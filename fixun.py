@@ -39,7 +39,7 @@ def Auto_choice_P1():
             full_site = 'http://' + Auto_links[num_seq] + '/' + username
             site_response = requests.get(full_site, timeout=5)
             status_code = site_response.status_code
-            if status_code == 200:
+            if status_code >= 200 and status_code < 300:
                 web_name = Auto_links[num_seq]
                 hostname = socket.gethostbyname(web_name)
                 print('-'*50)
@@ -48,7 +48,7 @@ def Auto_choice_P1():
                 print('IP: ',hostname)
                 print('[ACTIVE]')
                 print('-'*50)
-            elif status_code >= 200:
+            elif status_code >= 300:
                 web_name = Auto_links[num_seq]
                 hostname = socket.gethostbyname(web_name)
                 print('-'*50)
@@ -69,7 +69,7 @@ def Auto_choice_P2():
             full_site = 'http://' + Auto_links[num_seq] + '/' + username
             site_response = requests.get(full_site, timeout=5)
             status_code = site_response.status_code
-            if status_code == 200:
+            if status_code >= 200 and status_code < 300:
                 web_name = Auto_links[num_seq]
                 hostname = socket.gethostbyname(web_name)
                 print('-'*50)
@@ -78,7 +78,7 @@ def Auto_choice_P2():
                 print('IP: ',hostname)
                 print('[ACTIVE]')
                 print('-'*50)
-            elif status_code >= 200:
+            elif status_code >= 300:
                 web_name = Auto_links[num_seq]
                 hostname = socket.gethostbyname(web_name)
                 print('-'*50)
@@ -99,7 +99,7 @@ def Auto_choice_P3():
             full_site = 'http://' + Auto_links[num_seq] + '/' + username
             site_response = requests.get(full_site, timeout=5)
             status_code = site_response.status_code
-            if status_code == 200:
+            if status_code >= 200 and status_code < 300:
                 web_name = Auto_links[num_seq]
                 hostname = socket.gethostbyname(web_name)
                 print('-'*50)
@@ -108,7 +108,7 @@ def Auto_choice_P3():
                 print('IP: ',hostname)
                 print('[ACTIVE]')
                 print('-'*50)
-            elif status_code >= 200:
+            elif status_code >= 300:
                 web_name = Auto_links[num_seq]
                 hostname = socket.gethostbyname(web_name)
                 print('-'*50)
@@ -129,7 +129,7 @@ def Auto_choice_P4():
             full_site = 'http://' + Auto_links[num_seq] + '/' + username
             site_response = requests.get(full_site, timeout=5)
             status_code = site_response.status_code
-            if status_code == 200:
+            if status_code >= 200 and status_code < 300:
                 web_name = Auto_links[num_seq]
                 hostname = socket.gethostbyname(web_name)
                 print('-'*50)
@@ -138,7 +138,7 @@ def Auto_choice_P4():
                 print('IP: ',hostname)
                 print('[ACTIVE]')
                 print('-'*50)
-            elif status_code >= 200:
+            elif status_code >= 300:
                 web_name = Auto_links[num_seq]
                 hostname = socket.gethostbyname(web_name)
                 print('-'*50)
@@ -159,7 +159,7 @@ def Auto_choice_P5():
             full_site = 'http://' + Auto_links[num_seq] + '/' + username
             site_response = requests.get(full_site, timeout=5)
             status_code = site_response.status_code
-            if status_code == 200:
+            if status_code >= 200 and status_code < 300:
                 web_name = Auto_links[num_seq]
                 hostname = socket.gethostbyname(web_name)
                 print('-'*50)
@@ -168,7 +168,7 @@ def Auto_choice_P5():
                 print('IP: ',hostname)
                 print('[ACTIVE]')
                 print('-'*50)
-            elif status_code >= 200:
+            elif status_code >= 300:
                 web_name = Auto_links[num_seq]
                 hostname = socket.gethostbyname(web_name)
                 print('-'*50)
@@ -189,7 +189,7 @@ def Auto_choice_P6():
             full_site = 'http://' + Auto_links[num_seq] + '/' + username
             site_response = requests.get(full_site, timeout=5)
             status_code = site_response.status_code
-            if status_code == 200:
+            if status_code >= 200 and status_code < 300:
                 web_name = Auto_links[num_seq]
                 hostname = socket.gethostbyname(web_name)
                 print('-'*50)
@@ -198,7 +198,7 @@ def Auto_choice_P6():
                 print('IP: ',hostname)
                 print('[ACTIVE]')
                 print('-'*50)
-            elif status_code >= 200:
+            elif status_code >= 300:
                 web_name = Auto_links[num_seq]
                 hostname = socket.gethostbyname(web_name)
                 print('-'*50)
@@ -219,7 +219,7 @@ def Auto_choice_P7():
             full_site = 'http://' + Auto_links[num_seq] + '/' + username
             site_response = requests.get(full_site, timeout=5)
             status_code = site_response.status_code
-            if status_code == 200:
+            if status_code >= 200 and status_code < 300:
                 web_name = Auto_links[num_seq]
                 hostname = socket.gethostbyname(web_name)
                 print('-'*50)
@@ -228,7 +228,7 @@ def Auto_choice_P7():
                 print('IP: ',hostname)
                 print('[ACTIVE]')
                 print('-'*50)
-            elif status_code >= 200:
+            elif status_code >= 300:
                 web_name = Auto_links[num_seq]
                 hostname = socket.gethostbyname(web_name)
                 print('-'*50)
@@ -249,7 +249,7 @@ def Auto_choice_P8():
             full_site = 'http://' + Auto_links[num_seq] + '/' + username
             site_response = requests.get(full_site, timeout=5)
             status_code = site_response.status_code
-            if status_code == 200:
+            if status_code >= 200 and status_code < 300:
                 web_name = Auto_links[num_seq]
                 hostname = socket.gethostbyname(web_name)
                 print('-'*50)
@@ -258,7 +258,7 @@ def Auto_choice_P8():
                 print('IP: ',hostname)
                 print('[ACTIVE]')
                 print('-'*50)
-            elif status_code >= 200:
+            elif status_code >= 300:
                 web_name = Auto_links[num_seq]
                 hostname = socket.gethostbyname(web_name)
                 print('-'*50)
@@ -279,7 +279,7 @@ def Auto_choice_P9():
             full_site = 'http://' + Auto_links[num_seq] + '/' + username
             site_response = requests.get(full_site, timeout=5)
             status_code = site_response.status_code
-            if status_code == 200:
+            if status_code >= 200 and status_code < 300:
                 web_name = Auto_links[num_seq]
                 hostname = socket.gethostbyname(web_name)
                 print('-'*50)
@@ -288,7 +288,7 @@ def Auto_choice_P9():
                 print('IP: ',hostname)
                 print('[ACTIVE]')
                 print('-'*50)
-            elif status_code >= 200:
+            elif status_code >= 300:
                 web_name = Auto_links[num_seq]
                 hostname = socket.gethostbyname(web_name)
                 print('-'*50)
@@ -309,7 +309,7 @@ def Auto_choice_P10():
             full_site = 'http://' + Auto_links[num_seq] + '/' + username
             site_response = requests.get(full_site, timeout=5)
             status_code = site_response.status_code
-            if status_code == 200:
+            if status_code >= 200 and status_code < 300:
                 web_name = Auto_links[num_seq]
                 hostname = socket.gethostbyname(web_name)
                 print('-'*50)
@@ -318,7 +318,7 @@ def Auto_choice_P10():
                 print('IP: ',hostname)
                 print('[ACTIVE]')
                 print('-'*50)
-            elif status_code >= 200:
+            elif status_code >= 300:
                 web_name = Auto_links[num_seq]
                 hostname = socket.gethostbyname(web_name)
                 print('-'*50)
@@ -339,7 +339,7 @@ def Auto_choice_P11():
             full_site = 'http://' + Auto_links[num_seq] + '/' + username
             site_response = requests.get(full_site, timeout=5)
             status_code = site_response.status_code
-            if status_code == 200:
+            if status_code >= 200 and status_code < 300:
                 web_name = Auto_links[num_seq]
                 hostname = socket.gethostbyname(web_name)
                 print('-'*50)
@@ -348,7 +348,7 @@ def Auto_choice_P11():
                 print('IP: ',hostname)
                 print('[ACTIVE]')
                 print('-'*50)
-            elif status_code >= 200:
+            elif status_code >= 300:
                 web_name = Auto_links[num_seq]
                 hostname = socket.gethostbyname(web_name)
                 print('-'*50)
@@ -369,7 +369,7 @@ def Auto_choice_P12():
             full_site = 'http://' + Auto_links[num_seq] + '/' + username
             site_response = requests.get(full_site, timeout=5)
             status_code = site_response.status_code
-            if status_code == 200:
+            if status_code >= 200 and status_code < 300:
                 web_name = Auto_links[num_seq]
                 hostname = socket.gethostbyname(web_name)
                 print('-'*50)
@@ -378,7 +378,7 @@ def Auto_choice_P12():
                 print('IP: ',hostname)
                 print('[ACTIVE]')
                 print('-'*50)
-            elif status_code >= 200:
+            elif status_code >= 300:
                 web_name = Auto_links[num_seq]
                 hostname = socket.gethostbyname(web_name)
                 print('-'*50)
@@ -399,7 +399,7 @@ def Auto_choice_P13():
             full_site = 'http://' + Auto_links[num_seq] + '/' + username
             site_response = requests.get(full_site, timeout=5)
             status_code = site_response.status_code
-            if status_code == 200:
+            if status_code >= 200 and status_code < 300:
                 web_name = Auto_links[num_seq]
                 hostname = socket.gethostbyname(web_name)
                 print('-'*50)
@@ -408,7 +408,7 @@ def Auto_choice_P13():
                 print('IP: ',hostname)
                 print('[ACTIVE]')
                 print('-'*50)
-            elif status_code >= 200:
+            elif status_code >= 300:
                 web_name = Auto_links[num_seq]
                 hostname = socket.gethostbyname(web_name)
                 print('-'*50)
@@ -429,7 +429,7 @@ def Auto_choice_P14():
             full_site = 'http://' + Auto_links[num_seq] + '/' + username
             site_response = requests.get(full_site, timeout=5)
             status_code = site_response.status_code
-            if status_code == 200:
+            if status_code >= 200 and status_code < 300:
                 web_name = Auto_links[num_seq]
                 hostname = socket.gethostbyname(web_name)
                 print('-'*50)
@@ -438,7 +438,7 @@ def Auto_choice_P14():
                 print('IP: ',hostname)
                 print('[ACTIVE]')
                 print('-'*50)
-            elif status_code >= 200:
+            elif status_code >= 300:
                 web_name = Auto_links[num_seq]
                 hostname = socket.gethostbyname(web_name)
                 print('-'*50)
@@ -459,7 +459,7 @@ def Auto_choice_P15():
             full_site = 'http://' + Auto_links[num_seq] + '/' + username
             site_response = requests.get(full_site, timeout=5)
             status_code = site_response.status_code
-            if status_code == 200:
+            if status_code >= 200 and status_code < 300:
                 web_name = Auto_links[num_seq]
                 hostname = socket.gethostbyname(web_name)
                 print('-'*50)
@@ -468,7 +468,7 @@ def Auto_choice_P15():
                 print('IP: ',hostname)
                 print('[ACTIVE]')
                 print('-'*50)
-            elif status_code >= 200:
+            elif status_code >= 300:
                 web_name = Auto_links[num_seq]
                 hostname = socket.gethostbyname(web_name)
                 print('-'*50)
@@ -498,7 +498,7 @@ def manual_choice():
             print("IP: ",ip)
             print("[ACTIVE]")
             print('-'*50)
-        elif status >= 200:
+        elif status >= 300:
             print('-'*50)
             print(man_full_link)
             print("WEBSITE: ",man_link)
