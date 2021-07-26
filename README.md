@@ -12,13 +12,10 @@ cd FixunV1.0
 
 step3:
 ------
-if you want to check username automatically, then follow this command
 
 Auto
 ----
 python3 fixun.py username Auto
-
-if you want to check username manually, then follow this command
 
 Manual
 ------
